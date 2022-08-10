@@ -8,10 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "composite": true,
     "rootDir": "./src",
-    "outDir": "./dist",
-    "paths": {
-      "common": [ "../common" ]
-    }
+    "outDir": "./dist"
   },
   "references": [
     { "path": "../common" }
