@@ -1,4 +1,4 @@
-import { type Dummy, dummy } from "./dummy.ts";
+import { type Dummy, dummy } from "./dummy";
 
 const all = {
   dummy,

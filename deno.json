@@ -1,5 +1,4 @@
 {
-  "importMap": "import_map.json",
   "lint": {
     "files": {
       "include": [
@@ -46,8 +45,5 @@
         "packages/webclient/dist/"
       ]
     }
-  },
-  "tasks": {
-    "start": "deno run -A packages/webclient/src/index.ts"
   }
 }

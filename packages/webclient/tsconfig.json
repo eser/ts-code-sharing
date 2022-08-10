@@ -2,8 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "target": "ES2015",
-    "module": "ESNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "composite": true,
