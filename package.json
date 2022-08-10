@@ -1,0 +1,14 @@
+{
+  "name": "code-sharing",
+  "private": true,
+  "workspaces": [
+    "packages/common",
+    "packages/webclient"
+  ],
+  "scripts": {
+    "start": "npm run start -w common && npm run start -w webclient",
+    "build": "npm run build -w common && npm run build -w webclient",
+    "test": "npm run test --workspaces --if-present",
+    "cleanup": "npm run cleanup --workspaces --if-present"
+  }
+}

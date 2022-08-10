@@ -1,0 +1,53 @@
+{
+  "importMap": "import_map.json",
+  "lint": {
+    "files": {
+      "include": [
+        "packages/common/src/",
+        "packages/webclient/src/"
+      ],
+      "exclude": [
+        "packages/common/dist/",
+        "packages/webclient/dist/"
+      ]
+    },
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "ban-untagged-todo"
+      ],
+      "exclude": [
+        "import-prefix-missing"
+      ]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "packages/common/src/",
+        "packages/webclient/src/"
+      ],
+      "exclude": [
+        "packages/common/dist/",
+        "packages/webclient/dist/"
+      ]
+    }
+  },
+  "test": {
+    "files": {
+      "include": [
+        "packages/common/src/",
+        "packages/webclient/src/"
+      ],
+      "exclude": [
+        "packages/common/dist/",
+        "packages/webclient/dist/"
+      ]
+    }
+  },
+  "tasks": {
+    "start": "deno run -A packages/webclient/src/index.ts"
+  }
+}
